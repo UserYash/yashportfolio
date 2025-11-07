@@ -1,0 +1,33 @@
+.tools {
+  padding: 80px 20px;
+  background-color: #0b1120;
+  text-align: center;
+}
+
+.tools h2 {
+  color: #00bfff;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.tools-grid span {
+  background: #1a2234;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.tools-grid span:hover {
+  background: #00bfff;
+  transform: scale(1.05);
+}
